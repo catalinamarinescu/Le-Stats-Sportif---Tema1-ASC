@@ -1,6 +1,6 @@
+from threading import Lock
 from flask import request, jsonify
 from app import webserver
-from threading import Lock
 
 # Example endpoint definition
 @webserver.route('/api/post_endpoint', methods=['POST'])
